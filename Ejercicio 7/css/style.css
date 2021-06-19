@@ -1,0 +1,68 @@
+body {
+	/* estilos de letra */
+	font-family: Times New Roman;
+	font-style: normal;
+	font-weight: bold;
+	text-align: center;
+}
+
+header {
+	background-color: #e5e5e5;
+}
+
+.tituloPrincipal {
+	/* Defini los tamaños */
+	width: 100%;
+	height: 70px;
+
+	/* Centro el contenido */
+	text-align: center;
+
+	/* Tamaño y Color */
+	font-size: 35px;
+	color: #005677;
+	background-color: #c4c4c4;
+}
+
+.logo {
+	text-align: center;
+}
+
+main {
+	width: 1041px;
+	height: 459px;
+	text-align: start;
+	display: inline-block;
+}
+
+.subTitulo {
+	width: 1041px;
+	height: 30px;
+
+	/* Tamaño y Color */
+	font-size: 20px;
+	color: #005677;
+	background-color: #c4c4c4;
+}
+
+ul {
+	font-weight: normal;
+}
+
+.formAcademica ul,
+.expLaboral ul {
+	list-style: none;
+}
+span {
+	font-weight: bold;
+}
+
+footer {
+	width: 100%;
+	height: 37px;
+	text-align: center;
+
+	/* Tamaño y Color */
+	color: white;
+	background: #005677;
+}
