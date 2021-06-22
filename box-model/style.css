@@ -1,0 +1,44 @@
+* {
+	box-sizing: content-box;
+}
+
+.contenedor {
+	border: 5px blue solid;
+	height: 5000px;
+	width: 1300px;
+	position: absolute;
+}
+
+.caja1,
+.caja2,
+.caja3 {
+	width: 250px;
+	height: 250px;
+	padding: 5px;
+	margin: 5px;
+	border: solid 5px red;
+	position: relative;
+}
+
+/* Modificando posiciones de las cajas */
+.caja1 {
+	left: 20px;
+	top: 50px;
+	background-color: aquamarine;
+	z-index: 6;
+}
+
+.caja2 {
+	position: fixed;
+	left: 80px;
+	top: 100px;
+	background-color: blueviolet;
+	z-index: 7;
+}
+
+.caja3 {
+	position: sticky;
+	top: 250px;
+	background-color: burlywood;
+	z-index: 8;
+}
