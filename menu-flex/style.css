@@ -1,0 +1,21 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, Geneva, sans-serif;
+}
+nav ul {
+	list-style: none;
+	border: 2px red solid;
+	width: 450px;
+	margin: 10px;
+	background-color: #333;
+	display: flex;
+	justify-content: space-around;
+}
+
+nav a {
+	margin: 3px;
+	text-decoration: none;
+	color: white;
+}

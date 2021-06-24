@@ -1,0 +1,43 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	width: 1500px;
+	height: 1500px;
+	border: solid blue 5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	/* align-items: center; */
+	flex-wrap: wrap;
+	/* align-content: flex-start; */
+}
+
+.caja {
+	width: 250px;
+	height: 250px;
+	border: solid 5px red;
+	margin: 5px;
+	font-size: 30px;
+}
+
+.uno {
+	order: 2;
+	/* flex-grow: 1; */
+	align-self: flex-end;
+}
+
+.dos {
+	order: 1;
+	/* flex-grow: 1; */
+	align-self: center;
+}
+
+.tres {
+	order: 0;
+	/* flex-grow: 1; */
+	align-self: flex-start;
+}
