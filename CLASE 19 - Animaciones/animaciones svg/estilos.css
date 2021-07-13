@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.svg{
+    /* outline: 3px solid; */
+    margin: 30px auto;
+    width: 500px;
+    display: block;
+}
+
+#globo{
+    transform-origin: center;
+    animation: rotate 2s 3s forwards;
+    transform-box: fill-box;
+}
+
+#background{
+    transform: translate(-100%);
+    animation: animate 3s forwards;
+}
+
+@keyframes animate {
+
+    to{
+        transform: unset;
+    }
+    
+}
+
+
+.svg2{
+    width: 600px;
+    margin: 30px auto;
+    display: block;
+    outline: 4px solid #000;
+}
+
+#telephone{
+    animation: rotate 2s infinite alternate;
+    transform-origin: center;
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0) scale(1);
+    }
+
+    100%{
+        transform: rotate(360deg) scale(.2);
+    }
+}

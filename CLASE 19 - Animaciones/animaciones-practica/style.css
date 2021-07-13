@@ -1,0 +1,84 @@
+.spiderman {
+	width: 200px;
+	margin: 0 auto;
+	display: block;
+	/* background-color: yellow; */
+	animation: moverSpider 3s infinite;
+}
+
+.cuadrado {
+	width: 400px;
+	height: 400px;
+	background-color: steelblue;
+	margin: 5px auto;
+	border-radius: 50%;
+  /* important */
+	/* animation: cambiarColor 3s infinite; */
+  animation-name: cambiarColor;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+button {
+	transition: all 0.5s;
+}
+
+button:hover {
+	background-color: blue;
+	font-size: 2rem;
+	padding: 10px;
+	color: white;
+	border-radius: 15%;
+	/* transition-property: background-color, color;
+	transition-duration: 0.5s; */
+}
+
+/* important */
+.spiderman:hover {
+	/* transform: scale(2);  */
+	/* transform: skew(18deg); */
+	/* transform: rotate(100deg); */
+	/* transform: translate(-150px, 50px); */
+}
+
+@keyframes cambiarColor {
+	from {
+		background-color: teal;
+	}
+	to {
+		background-color: tomato;
+	}
+}
+
+/* important */
+@keyframes moverSpider {
+
+	/* inicio */
+  0% {
+		opacity: 0%;
+		transform: translateY(-100px);
+	}
+
+  /* progreso en 30% ... */
+	30% {
+		transform: translateY(0) rotate(5deg);
+		opacity: 50%;
+	}
+
+  /* progreso en 50% ... */
+	50% {
+		transform: rotate(-5deg);
+	}
+
+  /* progreso en 75% ... */
+	75% {
+		transform: rotate(5deg);
+	}
+
+  /* inicio */
+	100% {
+		transform: translateY(-100px);
+		opacity: 100%;
+	}
+}
+
