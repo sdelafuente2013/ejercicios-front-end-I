@@ -1,0 +1,48 @@
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    background-color: red;
+    color: white;
+    font-size: 2rem;
+}
+
+a:active {
+    background-color: blue;
+    color: white;
+    font-size: 2rem;
+}
+
+input:focus {
+    border: gray 4px solid;
+}
+
+input:valid {
+    background-color: rgba(0, 150, 0, 0.25);
+}
+
+input:invalid {
+    background-color: rgba(150, 0, 0, 0.25);
+}
+
+a::before{
+    content: "★";
+    color: red;
+}
+
+p::first-letter{
+    font-size: 2rem;
+}
+
+p::first-line{
+    background-color: green;
+}

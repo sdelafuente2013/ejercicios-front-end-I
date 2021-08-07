@@ -1,0 +1,133 @@
+*{  
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    padding: 1rem;
+    background-color: #00669F;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 2.5rem;
+    font-weight: normal;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+h2{
+    padding-left: 2rem ;
+    background-color: #D1891C;
+    color: #333333;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: 7rem 7rem 7rem 7rem;  */
+    /* border: blue solid 2px; */
+    flex-direction: column;
+    position: relative;
+}
+
+article{
+    width: 90%;
+    height: 45rem;
+    margin: 1rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2rem 2rem 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color:#F3F3F3;
+    /* border: red solid 2px; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+article .logo{
+    border-radius: 50%;
+    width: 50%;
+    margin: 30% 0 -1% 0;
+}
+
+article .tituloHeroe{
+    font-size: 2rem;
+}
+
+article p{
+    padding: 5px;
+    font-size: 1rem;
+}
+
+article .boton{
+    width: 30%;
+    height: 70px;
+    background-color:#00669F;
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+article .corazones{
+    position: absolute;
+    width: 10%;
+    left: 3.2rem;
+    top: 1rem;
+
+}
+
+.card-batman{
+    background-image: url('../img/fondos/batman.png');
+    display: none;
+    visibility: hidden;
+}
+.card-mujer{
+    background-image: url('../img/fondos/mujer-maravilla.png');
+}
+.card-superman{
+    background-image: url('../img/fondos/superman.png');
+}
+.card-harley{
+    background-image: url('../img/fondos/harley.png');
+}
+
+footer{
+    background-color: #00669F;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+
+footer img{
+    width: 8rem;
+    margin: 1rem;
+}
+
+.mas{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: fixed;
+    background-color: #00669F;
+    right: 0;
+    top: 500px;
+}
+
+.mas img{
+    width: 3rem;
+    padding: 0.5rem;
+}
+
+@media (min-width: 770px){
+    
+}

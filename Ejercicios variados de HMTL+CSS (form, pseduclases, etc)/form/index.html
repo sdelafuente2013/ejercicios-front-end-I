@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="#">
+        <label for="usuario">Usuario:</label>
+        <input type="text" name="usuario" id="usuario" placeholder="Usuario..">
+        <br>
+        <label for="pass">Contraseña:</label>
+        <input type="password" name="pass" id="pass" placeholder="Contraseña...">
+
+        <button type="reset">Resetear</button>
+        <button type="submit">Enviar</button>
+
+        <br>
+        <!-- Radio button y Checkboxes -->
+        <label>Medio de pago: </label>
+
+        <div>
+            <input type="radio" name="pago" value="Efectivo" id="pago" checked>
+            <label for="pago">Efectivo</label>
+        </div>
+
+        <div>
+            <label>
+                <input type="radio" name="pago" value="Debito">
+                Debito
+            </label>
+        </div>
+
+        <div>
+            <label>
+                <input type="radio" name="pago" value="Credito">
+                Credito
+            </label>
+        </div>
+
+    </form>
+
+
+</body>
+</html>

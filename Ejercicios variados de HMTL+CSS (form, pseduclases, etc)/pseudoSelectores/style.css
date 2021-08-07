@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* header */
+
+header h5 {
+    height: 23px;
+    background-color: #1CD1B0;
+    padding: 0.2rem 0 0 1rem;
+}
+
+header .titulo {
+    height: 80px;
+    background-color: #00669F;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+header .titulo h2,
+header .titulo img {
+    margin: 0.5rem;
+}
+
+header .menu {
+    height: 40px;
+    background-color: #001D2D;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header .menu a {
+    margin: 0 1rem 0 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+/* Section */
+
+section{
+    width: 1020px;
+    height: 533px;
+    /* background-color: rgb(144, 107, 52); */
+    display: flex;
+    justify-content: space-between;
+    margin: 175px 200px 220px 270px;
+    /* text-align: center; */
+}
+
+section article{
+    width: 300px;
+    /* border: solid red 3px; */
+    border-radius: 2rem 2rem 0 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color:#F3F3F3;
+}
+
+section article .logo{
+    border-radius: 50%;
+    width: 50%;
+    margin: 30% 0 0 25%;
+}
+
+section article.card-batman{
+    background-image: url('../img/fondos/batman.png');
+}
+
+section article.card-harley{
+    background-image: url('../img/fondos/harley.png');
+}
+
+footer {
+    height: 61px;
+    background-color: #00669F;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contacto{
+    border: brown solid 2px;
+}
+
+
+.contacto article{
+    border: rgb(42, 165, 52) solid 2px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #00669F;
+    color: white;
+}
+
+.contacto article form{
+    border: rgb(63, 54, 185) solid 2px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.contacto article form div{
+    margin-left: 1rem;
+}

@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url('../img/fondo.png');
+    background-size: 250px;
+}
+header{
+    position: sticky;
+    top:0;
+}
+
+header .titulo{
+    width: 100%;
+    height: 110px;
+    display: flex;
+    background-color: rgba(143, 97, 36, 0.945);
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+header .titulo img{
+    width: 100px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 50%;
+    border: solid black 2px;
+}
+
+header nav{
+    background-color: rgba(135, 219, 191, 0.582);
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+}
+
+header li{
+    list-style: none;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: blueviolet solid 1px;
+    background-color: aquamarine;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+section{
+    display: flex;
+    /* border: red 2px solid; */
+    width: 1390px;
+    margin: 2rem auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+section article{
+    background-color: cadetblue;
+    margin: 5px;
+    padding: 10px;
+    width: 300px;
+    height: 500px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section form{
+    width: 280px;
+    height: 360px;
+    margin: 5% auto;
+    border-radius: 10px;
+    border: rebeccapurple solid 2px;
+    background-color: rgba(84, 113, 200, 0.541);
+}
+
+
+section form div{
+    margin: 10%;
+}
+
+section article img{
+    width: 80%;
+    /* height: 50%; */
+    /* border: red 2px solid; */
+    border-radius: 30%;
+}
+
+section article button{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(96, 107, 138);
+    color: white;
+    font-weight: bold;
+}
+
+footer{
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: seashell;
+    background-color: rgb(72, 105, 88);
+    font-weight: lighter;
+}
